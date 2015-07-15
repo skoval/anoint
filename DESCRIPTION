@@ -1,12 +1,12 @@
 Package: anoint
 Type: Package
-Title: Analysis of interactions
+Title: Analysis of Interactions
 Version: 1.4
 Date: 2015-07-10
 Author: Ravi Varadhan <rvaradhan@jhmi.edu> and Stephanie Kovalchik
 Maintainer: Stephanie Kovalchik <s.a.kovalchik@gmail.com>
-Description: Tools for assessing multiple treatment-covariate interactions with data from a parallel-group randomized controlled clinical trial
+Description: The tools in this package are intended to help researchers assess multiple treatment-covariate interactions with data from a parallel-group randomized controlled clinical trial.
 License: GPL (>=2)
-Depends: survival, grid, methods, glmnet, MASS
+Depends: survival, grid, graphics, methods, glmnet, MASS
 LazyLoad: yes
 BuildVignettes: no

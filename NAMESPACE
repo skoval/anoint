@@ -1,6 +1,36 @@
 export(anoint, pim, anoint.formula, forest, data.anoint, anoint.fit, uim, obo, pim.subsets, pim.fit, forest.subsets, anoint.subgroups)
 exportClasses(anoint, pim, formula.anoint, anoint.fit)
-import(MASS, survival, glmnet, grid, methods)
-importFrom("graphics", plot)
-importFrom("stats", coef, confint, vcov, predict, update)
 exportMethods(show, coef, vcov, plot, predict, confint, fits)
+import(MASS, survival, glmnet, grid, methods)
+importFrom("stats", 
+	coef,
+	confint,
+	vcov,
+	predict,
+	update,
+	na.omit,
+	qchisq,
+	pchisq,
+	as.formula,
+	qnorm,
+	rbinom,
+	rexp,
+	runif,
+	model.matrix,
+	model.frame,
+	glm,
+	logLik,
+	formula,
+	offset,
+	quantile,
+	rnorm,
+	pt,
+	qt,
+	update.formula)
+importFrom("graphics", 
+	plot,
+	par,
+	rect,
+	points,
+	lines
+)
